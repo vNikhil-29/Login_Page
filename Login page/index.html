@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Page</title>
+        <style>
+      .cse {
+        background-color: orange;
+        height: 275px;
+        width: 320px;
+
+        h1 {
+          text-align: center;
+          font-size: 35px;
+          text-shadow: 12px 0px 20px;
+          color: black;
+          
+          
+        }
+        .input-grp {
+          border-radius: 35px;
+          width: 250px;
+          height: 30px;
+          display: flex;
+          margin: 30px;
+          border: 2px solid black;
+        }
+        .input-gp {
+          border-radius: 35px;
+          width: 250px;
+          height: 30px;
+          display: flex;
+          margin: 30px;
+          border: 2px solid black;
+        }
+
+        .buttons {
+          border-radius: 12px;
+          height: 30px;
+          width: 80px;
+          margin-left: 55px;
+          border: 2px solid orange;
+          box-shadow: 10px 0px 20px;
+          text-shadow: 10px 0px 20px;
+          background-color: orange;
+          cursor: pointer;
+        }
+
+        .reset {
+          border-radius: 10px;
+          height: 30px;
+          width: 80px;
+          margin-left: 45px;
+         border: 2px solid red;
+          box-shadow: 10px 0px 20px;
+          text-shadow: 10px 0px 20px;
+          background-color: red;
+          gap: 34px;
+          cursor: pointer;
+        }
+    }
+      body {
+         background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/04/landscape-wallpaper-hd-backgrounds.jpg);
+        background-position: center;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 250px;
+      }
+      .cse{
+       backdrop-filter: blur(8px) saturate(169%);
+       -webkit-backdrop-filter: blur(8px) saturate(169%);
+       background-color: rgba(165, 168, 173, 0.45);
+        border-radius: 12px;
+         border: 1px solid rgba(255, 255, 255, 0.125);
+   
+}
+    </style>
+    </head>
+    <body>
+        <div class="cse">
+            <h1>login Page</h1>
+            <form action>
+                <div class="snist">
+                    <input
+                        class="input-grp"
+                        type="text"
+                        id="text"
+                        name="text"
+                        placeholder="  Enter the you email" />
+                    <input
+                        class="input-gp"
+                        type="text"
+                        id="text"
+                        name="text" placeholder=" Enter the password" />
+                    <input class="buttons" type="submit">
+                    <input class="reset" type="reset">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
